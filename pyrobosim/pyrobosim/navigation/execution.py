@@ -88,6 +88,7 @@ class ConstantVelocityExecutor:
 
         self.current_traj_time = 0.0
         self.abort_execution = False
+        self.cancel_execution = False
         self.following_path = True
 
         # Convert the path to an interpolated trajectory.
